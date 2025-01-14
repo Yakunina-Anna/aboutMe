@@ -1,0 +1,25 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.padding-1 {
+  padding: 0 200px;
+}
+
+.header__container {
+  display: flex;
+  background-color: black;
+  height: var(--dynamic-vh);
+  color: rgb(255, 255, 255);
+}
+
+.header__header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav-list {
+  display: flex;
+  row-gap:26px
+}
