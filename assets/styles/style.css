@@ -2,10 +2,11 @@
 @import '../fonts/fonts.css';
 
 :root {
+  --white-color: #fff;
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
   --font-family: Roboto Regular, sans-serif;
-  --dynamic-vh: 100vh; /* Начальное значение */
+  --dynamic-vh: min-content;
   --padding: 20px;
 }
 
@@ -40,6 +41,20 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 110px;
+  font-weight: 900;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 27px;
 }
 
 a {
