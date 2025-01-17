@@ -8,7 +8,7 @@
 }
 
 .padding-2 {
-  padding: 0 376px;
+  margin: 0 376px;
 }
 
 .d-flex-row {
@@ -116,6 +116,44 @@
   line-height: 27px;
 }
 
-.skills_container {
+.skills-projects__container {
   margin-top: 176px;
+}
+
+.skills-projects__wrapper {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.skills__item {
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 2px solid var(--secondary-color);
+  overflow: hidden;
+}
+
+.skills__item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  animation: fillBorder 1s forwards;
+}
+
+@keyframes fillBorder {
+  to {
+    width: var(--fill-percentage, 0);
+  }
+}
+
+.skills__item-title {
+  font-family: 'Roboto Bold';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }

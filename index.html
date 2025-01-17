@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <div class="container">
     <sections class="padding-1 header__container">
       <header class="header__header-content">
@@ -86,14 +85,35 @@
         <p class="header__subtitle">Специализируюсь на создании динамичных веб-интерфейсов с помощью Vue.js и других передовых инструментов</p>
       </main>
     </sections>
-    <sections class="padding-2 skills_container">
-      <div>
-        <h2>Навыки</h2>
-
-      </div>
-      <div>
+    <sections id="#skills-projects">
+      <div class="padding-2 skills-projects__container">
+        <div class="d-flex-row skills-projects__wrapper">
+          <div class="skills__inner">
+            <ul class="skills__list">
+              <li class="skills__item" data-fill="90">
+                <p class="skills__item-title">HTML, CSS</p>
+              </li>
+              <li class="skills__item" data-fill="75">
+                <p class="skills__item-title">JavaScript</p>
+              </li>
+              <li class="skills__item" data-fill="85">
+                <p class="skills__item-title">Vue.js (2,3) Composition API</p>
+              </li>
+              <li class="skills__item" data-fill="60">
+                <p class="skills__item-title">Pinia, Vite</p>
+              </li>
+              <li class="skills__item" data-fill="50">
+                <p class="skills__item-title">Nuxt.js 3</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Самые интересные задачи</h2>
+          </div>
+        </div>
       </div>
     </sections>
   </div>
+  <script src="./js/skils-projects.js"></script>
 </body>
 </html>
