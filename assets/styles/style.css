@@ -3,6 +3,7 @@
 @import '../fonts/fonts.css';
 
 :root {
+  --black-color: #222222;
   --white-color: #fff;
   --primary-color: #FF5B5B;
   --secondary-color: #777777;
