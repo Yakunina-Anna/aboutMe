@@ -1,16 +1,15 @@
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header__inner {
     padding-top: 20px;
   }
 
   .header__main-content {
-    max-width: 100%;
-    margin: 90px 0 100px 70px;
+    padding: 90px 0 100px 70px;
   }
 
   .skills-projects__container {
     margin-top: 90px;
-    gap: 70px 50px;
+    gap: 70px 70px;
   }
   .skills__inner {
     max-width: 350px;
@@ -25,4 +24,127 @@
   .projects__list {
     margin-top: 42px;
   }
+
+  .expertise__container {
+    margin-top: 105px;
+  }
+  .expertise__list {
+    gap: 100px 100px;
+    margin-top: 48px;
+  }
+  .expertise__number {
+    font-size: 180px;
+    line-height: 180px;
+  }
+  .works__container {
+    margin-top: 109px;
+  }
+  .works__statement-title {
+    font-size: 42px;
+    line-height: 48px;
+    max-width: 760px;
+  }
+  .works__statement-subtitle {
+    margin-top: 25px;
+    max-width: 767px;
+  }
+  .works__list {
+    margin-top: 60px;
+  }
+  .works__item-descr {
+    margin-top: 18px;
+  }
+
+  .quote__container {
+    margin-top: 100px;
+  }
+  .quote__title {
+    margin-top: 60px;
+  }
+
+  .education-experience__container {
+    margin-top: 100px;
+    gap: 60px 200px;
+  }
+  .education-experience__list {
+    margin-top: 60px;
+    gap: 45px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__name-position {
+    flex-direction: column;
+    gap: 10px 0;
+    align-items: start;
+  }
+  .header__contacts {
+    flex-direction: column;
+    align-items: end;
+    gap: 10px 0;
+  }
+  .expertise__list {
+    gap: 50px 20px;
+  }
+  .expertise__number {
+    font-size: 150px;
+    line-height: 150px;
+  }
+  .expertise__text {
+    font-size: 14px;
+  }
+  .education-experience__container {
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  .education-experience__list {
+    width: 500px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 6px;
+  }
+  .header__inner {
+    padding-top: 10px;
+  }
+  .header__inner-header {
+    align-items: start;
+  }
+  .header__inner-header-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px 0;
+  }
+  .header__name-position {
+    margin-right: 10px;
+    width: max-content;
+    gap: 5px 0;
+  }
+  .header__name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .header__position {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .header__nav-item svg {
+    width: 24px;
+    height: 24px;
+  }
+  .header__contacts {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .header__contacts-container svg {
+    display: none;
+  }
+  .header__main-content {
+    padding: 30px 0;
+  }
+
 }
