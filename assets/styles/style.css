@@ -22,11 +22,19 @@
 body {
   font-family: "Roboto Regular", sans-serif;
   font-size: 18px;
+  line-height: 27px;
   font-weight: normal;
   line-height: 1.2;
   color: #333333;
   background-color: #fff;
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 ul,
