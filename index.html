@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Фронтенд-разработчик на Vue 3</title>
+  <meta name="description" content="Я фронтенд-разработчик с опытом работы на Vue 3. Создаю современные и отзывчивые веб-приложения. Узнайте больше о моих навыках и проектах.">
+  <meta name="keywords" content="фронтенд-разработчик, Vue 3, веб-разработка, JavaScript, веб-приложения">
+  <meta name="author" content="Якунина Анна">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://anya-online.ru">
   <link rel="stylesheet" href="assets/styles/style.css">
-  <script type="module">
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments) };
-    gtag('js', new Date());
-    gtag('config', 'UA-49604576-5');
-  </script>
 </head>
 
 <body>
-  <header class="header__container">
+  <div class="header__container">
     <div class="container">
-      <sections class="header__inner">
-        <div class="d-flex-row header__inner-header">
+      <section id="header" class="header__inner">
+        <header class="d-flex-row header__inner-header">
           <div class="d-flex-row header__inner-header-left">
             <div class="d-flex-row header__name-position">
               <p class="header__name">Анна Якунина</p>
               <p class="header__position">Frontend-разработчик</p>
             </div>
-            <nav>
+            <div>
               <ul class="header__icon-list">
                 <li class="underline-link header__nav-item">
-                  <a href="https://vk.ru/annaredfox">
+                  <a href="https://vk.ru/annaredfox" aria-label="Вконтакте">
                     <svg fill="white" version="1.1" id="Capa_1" width="34" height="34"
                       xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                       viewBox="0 0 363.301 363.301" xml:space="preserve">
@@ -54,7 +51,7 @@
                   </a>
                 </li>
                 <li class="underline-link header__nav-item">
-                  <a href="https://t.me/anna_yakunina_it">
+                  <a href="https://t.me/anna_yakunina_it" aria-label="телеграмм">
                     <svg width="34" height="34" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill="#fff"
                       viewBox="0 0 50 50">
                       <path
@@ -64,7 +61,7 @@
                   </a>
                 </li>
                 <li class="underline-link header__nav-item">
-                  <a href="https://github.com/Yakunina-Anna">
+                  <a href="https://github.com/Yakunina-Anna" aria-label="github">
                     <svg width="34" height="34" aria-hidden="true" viewBox="0 0 24 24" version="1.1"
                       data-view-component="true" fill="#fff">
                       <path
@@ -74,7 +71,7 @@
                   </a>
                 </li>
               </ul>
-            </nav>
+            </div>
           </div>
           <div class="d-flex-row header__contacts">
             <div class="d-flex-row header__contacts-container">
@@ -84,8 +81,9 @@
                   d="M17 0L3 0C2.2 0 1.44 0.31 0.87 0.87C0.31 1.44 0 2.2 0 3L0 13C0 13.79 0.31 14.55 0.87 15.12C1.44 15.68 2.2 16 3 16L17 16C17.79 16 18.55 15.68 19.12 15.12C19.68 14.55 20 13.79 20 13L20 3C20 2.2 19.68 1.44 19.12 0.87C18.55 0.31 17.79 0 17 0ZM16.59 2L10.71 7.87C10.61 7.97 10.5 8.04 10.38 8.09C10.26 8.14 10.13 8.17 10 8.17C9.86 8.17 9.73 8.14 9.61 8.09C9.49 8.04 9.38 7.97 9.29 7.87L3.41 2L16.59 2ZM18 13C18 13.26 17.89 13.51 17.7 13.7C17.51 13.89 17.26 14 17 14L3 14C2.73 14 2.48 13.89 2.29 13.7C2.1 13.51 2 13.26 2 13L2 3.4L7.88 9.29C8.44 9.85 9.2 10.16 10 10.16C10.79 10.16 11.55 9.85 12.12 9.29L18 3.4L18 13Z"
                   fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
               </svg>
-              <a href="mailto:simonya6ka@gmail.com"
-                class="underline-link header__contacts-link">simonya6ka@gmail.com</a>
+              <a href="mailto:simonya6ka@gmail.com" class="underline-link header__contacts-link" aria-label="почта">
+                simonya6ka@gmail.com
+              </a>
             </div>
             <div class="d-flex-row header__contacts-container">
               <svg width="20.000000" height="18.000000" viewBox="0 0 20 18" fill="none"
@@ -94,20 +92,20 @@
                   d="M18 10.17L18 8C18 5.87 17.15 3.84 15.65 2.34C14.15 0.84 12.12 0 10 0C7.87 0 5.84 0.84 4.34 2.34C2.84 3.84 2 5.87 2 8L2 10.17C1.41 10.38 0.91 10.76 0.55 11.27C0.19 11.77 0 12.38 0 13L0 15C0 15.79 0.31 16.55 0.87 17.12C1.44 17.68 2.2 18 3 18L6 18C6.26 18 6.51 17.89 6.7 17.7C6.89 17.51 7 17.26 7 17L7 11C7 10.73 6.89 10.48 6.7 10.29C6.51 10.1 6.26 10 6 10L4 10L4 8C4 6.4 4.63 4.88 5.75 3.75C6.88 2.63 8.4 2 10 2C11.59 2 13.11 2.63 14.24 3.75C15.36 4.88 16 6.4 16 8L16 10L14 10C13.73 10 13.48 10.1 13.29 10.29C13.1 10.48 13 10.73 13 11L13 17C13 17.26 13.1 17.51 13.29 17.7C13.48 17.89 13.73 18 14 18L17 18C17.79 18 18.55 17.68 19.12 17.12C19.68 16.55 20 15.79 20 15L20 13C19.99 12.38 19.8 11.77 19.44 11.27C19.08 10.76 18.58 10.38 18 10.17ZM5 12L5 16L3 16C2.73 16 2.48 15.89 2.29 15.7C2.1 15.51 2 15.26 2 15L2 13C2 12.73 2.1 12.48 2.29 12.29C2.48 12.1 2.73 12 3 12L5 12ZM18 15C18 15.26 17.89 15.51 17.7 15.7C17.51 15.89 17.26 16 17 16L15 16L15 12L17 12C17.26 12 17.51 12.1 17.7 12.29C17.89 12.48 18 12.73 18 13L18 15Z"
                   fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
               </svg>
-              <a href="tel:+7 999 140 79 19" class="underline-link header__contacts-link">+7 999 140 79 19</a>
+              <a href="tel:+7 999 140 79 19" class="underline-link header__contacts-link"  aria-label="телефон">+7 999 140 79 19</a>
             </div>
           </div>
-        </div>
-        <main class="header__main-content">
+        </header>
+        <div class="header__main-content">
           <h1>Формирую современные веб&ndash;приложения с&nbsp;Vue.js</h1>
           <p class="header__subtitle">Специализируюсь на создании динамичных веб-интерфейсов с помощью Vue.js и других
             передовых инструментов</p>
-        </main>
-      </sections>
+        </div>
+      </section>
     </div>
-  </header>
-  <div class="container">
-    <sections id="skills-projects">
+  </div>
+  <main class="container">
+    <section id="skills-projects">
       <div class="d-flex-row skills-projects__container">
         <div class="skills__inner">
           <h2>Навыки</h2>
@@ -147,8 +145,8 @@
           </div>
         </div>
       </div>
-    </sections>
-    <sections id="expertise">
+    </section>
+    <section id="expertise">
       <div class="container__bg">front</div>
       <div class="expertise__container">
         <div class="expertise__inner">
@@ -169,8 +167,8 @@
           </div>
         </div>
       </div>
-    </sections>
-    <sections id="works">
+    </section>
+    <section id="works">
       <div class="d-flex-column works__container">
         <h4>Мои последние проекты</h4>
         <p class="works__statement-title">Создание проектов, движимое исключительно страстью к&nbsp;коду
@@ -179,36 +177,36 @@
         <div class="works__list">
           <div class="d-flex-column works__item">
             <div class="works__item-image">
-              <img src="./assets/images/image1.jpg" alt="works-1">
+              <img src="./assets/images/image1.jpg" alt="первый проект">
             </div>
             <p class="works__item-descr">Название проекта</p>
           </div>
           <div class="d-flex-column works__item">
             <div class="works__item-image">
-              <img src="./assets/images/image2.jpg" alt="works-1">
+              <img src="./assets/images/image2.jpg" alt="второй проект">
             </div>
             <p class="works__item-descr">Название проекта</p>
           </div>
           <div class="d-flex-column works__item">
             <div class="works__item-image">
-              <img src="./assets/images/image3.jpg" alt="works-1">
+              <img src="./assets/images/image3.jpg" alt="третий проект">
             </div>
             <p class="works__item-descr">Название проекта</p>
           </div>
           <div class="d-flex-column works__item">
             <div class="works__item-image">
-              <img src="./assets/images/image4.jpg" alt="works-1">
+              <img src="./assets/images/image4.jpg" alt="четвертый проект">
             </div>
             <p class="works__item-descr">Название проекта</p>
           </div>
         </div>
         <div id="modal" class="modal">
           <span id="closeModal" class="modal__close">&times;</span>
-          <img id="modalImage" class="modal__content" alt="Увеличенная картинка">
+          <img id="modalImage" class="modal__content" alt="Увеличенная картинка проекта">
         </div>
       </div>
-    </sections>
-    <sections id="quote">
+    </section>
+    <section id="quote">
       <div class="container__bg">client</div>
       <div class="d-flex-column quote__container">
         <h4>Любимая цитата</h4>
@@ -223,8 +221,8 @@
         </div>
         <p class="quote__subtitle">&mdash;&nbsp;Рэй Брэдберри,&nbsp;<strong>американский писатель.</strong></p>
       </div>
-    </sections>
-    <sections id="education-experience">
+    </section>
+    <section id="education-experience">
       <div class="d-flex-row education-experience__container">
         <div class="education-experience__inner">
           <h3>Образование</h3>
@@ -270,28 +268,29 @@
           </div>
         </div>
       </div>
-    </sections>
-  </div>
-  <footer id="footer">
+    </section>
+  </main>
+  <div id="footer">
     <div class="footer__container">
       <div class="container">
         <div class="footer__inner">
           <div class="footer__feedback">
             <div class="footer__feedback-content">
-              <p class="footer__feedback-title">Я готова к новому захватывающему проекту. <a
-                  href="https://t.me/anna_yakunina_it"
-                  class="underline-link header__contacts-link">Давайте&nbsp;обсудим.</a>
+              <p class="footer__feedback-title">Я готова к новому захватывающему проекту.
+                <a href="https://t.me/anna_yakunina_it" class="underline-link header__contacts-link"  aria-label="телефон">
+                  Давайте&nbsp;обсудим.
+                </a>
               </p>
               <p class="footer__feedback-subtitle">Вы можете отправить мне сообщение здесь ИЛИ связаться со мной в любых
                 социальных сетях. Мы можем выпить кофе и поговорить об этом по телефону.</p>
             </div>
             <form class="footer__feedback-form" id="feedbackForm">
-              <input placeholder="Имя *" type="text" id="customInput" class="custom-input" required>
-              <input placeholder="Эл. почта *" type="text" id="customInput" class="custom-input" required>
-              <input placeholder="Адрес *" type="text" id="customInput" class="custom-input" required>
-              <input placeholder="Телефон" type="text" id="customInput" class="custom-input">
-              <textarea placeholder="Сообщение *" name="" id="customInput" class="custom-input" required></textarea>
-              <button class="footer__feedback-button" type="submit">
+              <input placeholder="Имя *" type="text" id="customName" class="custom-input" required>
+              <input placeholder="Эл. почта *" type="text" id="customEmail" class="custom-input" required>
+              <input placeholder="Адрес *" type="text" id="customAddress" class="custom-input" required>
+              <input placeholder="Телефон" type="text" id="customPhone" class="custom-input">
+              <textarea placeholder="Сообщение *" name="" id="customMessage" class="custom-input" required></textarea>
+              <button class="footer__feedback-button" type="submit"  aria-label="отправить">
                 <span>Отправить</span>
                 <svg width="13.134644" height="9.704102" viewBox="0 0 13.1346 9.7041" fill="none"
                   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -302,12 +301,12 @@
               </button>
             </form>
           </div>
-          <div class="footer__contacts">
-            <nav class="footer__contacts-nav">
+          <footer class="footer__contacts">
+            <div class="footer__contacts-nav">
               <ul>
-                <li><a href="https://t.me/anna_yakunina_it" class="underline-link header__nav-item">Telegram</a></li>
-                <li><a href="https://github.com/Yakunina-Anna" class="underline-link header__nav-item">GitHub</a></li>
-                <li><a href="https://vk.ru/annaredfox" class="underline-link header__nav-item">ВКонтакте</a></li>
+                <li><a href="https://t.me/anna_yakunina_it" class="underline-link header__nav-item" aria-label="телеграмм">Telegram</a></li>
+                <li><a href="https://github.com/Yakunina-Anna" class="underline-link header__nav-item"  aria-label="гитхаб">GitHub</a></li>
+                <li><a href="https://vk.ru/annaredfox" class="underline-link header__nav-item"  aria-label="вконтакте">ВКонтакте</a></li>
               </ul>
               <ul>
                 <li><a href="#skills-projects" class="underline-link header__nav-item">Навыки и проекты</a></li>
@@ -327,10 +326,11 @@
                 <li><a href="#works" class="underline-link header__nav-item">Проекты</a></li>
                 <li><a href="#education-experience" class="underline-link header__nav-item">Образование и опыт</a></li>
               </ul>
-            </nav>
+            </div>
             <div class="footer__contacts-info">
               <div class="footer__contacts-info__inner">
-                <a href="mailto:simonya6ka@gmail.com" class="underline-link header__contacts-link">simonya6ka@gmail.com</a>
+                <a href="mailto:simonya6ka@gmail.com"
+                  class="underline-link header__contacts-link">simonya6ka@gmail.com</a>
                 <p>г. Нижний Новгород. Россия</p>
               </div>
               <ul class="footer__icon-list">
@@ -382,11 +382,11 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </footer>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
   <script src="./js/modal.js"></script>
   <script src="./js/skils-projects.js"></script>
 </body>
