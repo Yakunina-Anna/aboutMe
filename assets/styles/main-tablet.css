@@ -1,3 +1,13 @@
+@media screen and (max-width: 1351px) {
+  .footer__contacts {
+    gap: 200px 200px;
+  }
+
+  .footer__contacts-nav {
+    gap: 0 100px
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .container__bg {
     font-size: 400px;
@@ -12,7 +22,8 @@
     padding: 90px 0 100px 70px;
   }
 
-  .header__nav-list {
+  .header__icon-list,
+  .footer__icon-list {
     gap: 0 20px;
   }
 
@@ -98,6 +109,14 @@
     margin-top: 60px;
     gap: 45px 0;
   }
+
+  .footer__contacts {
+    gap: 200px 150px;
+  }
+
+  .footer__contacts-nav {
+    gap: 0 80px
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -153,8 +172,15 @@
     line-height: 42px;
   }
 
-  .footer__feedback-subtitle {}
+  .footer__contacts {
+    margin-top: 80px;
+    grid-template-columns: 1fr;
+    gap: 75px 0;
+  }
 
+  .footer__contacts-nav {
+    gap: 0 80px
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -165,7 +191,7 @@
   .container__bg {
     font-size: 200px;
     line-height: 300px;
-    top:30%
+    top: 30%
   }
 
   .header__inner {
@@ -298,6 +324,12 @@
     margin-top: 18px;
   }
 
+  .quote__icon {
+    top:10px;
+    width: 104px;
+    height: 104px;
+  }
+
   .education-experience__container {
     margin-top: 55px;
     padding: 0 30px;
@@ -331,6 +363,21 @@
 
   .footer__feedback-subtitle {
     margin-top: 18px;
+  }
+
+  .footer__contacts {
+    width: 100%;
+    margin-top: 55px;
+    gap: 45px 0;
+  }
+
+  .footer__contacts-nav {
+    flex-direction: column;
+    gap: 20px 0
+  }
+
+  .footer__icon-list {
+    margin-top: 10px;
   }
 
 }
