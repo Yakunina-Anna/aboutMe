@@ -200,6 +200,7 @@
 
   .header__inner-header {
     align-items: start;
+    padding: 0;
   }
 
   .header__inner-header-left {
@@ -378,5 +379,17 @@
 
   .footer__icon-list {
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header__contacts {
+    font-size: 9px;
+    line-height: 11px;
+  }
+
+  .works__item-image {
+    width: 80%;
+    height: 256px;
   }
 }

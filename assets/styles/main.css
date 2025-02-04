@@ -94,6 +94,7 @@
 }
 
 .header__inner-header {
+  padding: 0 20px;
   justify-content: space-between;
 }
 
