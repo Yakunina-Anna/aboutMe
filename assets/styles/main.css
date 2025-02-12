@@ -16,7 +16,7 @@
   line-height: 973px;
   color: var(--secondary-bg);
   text-transform: uppercase;
-  font-family: 'Roboto Black';
+  font-family: 'OpenSans Extra Bold';
   width: 100%;
   max-width: 100%;
   overflow: hidden;
@@ -42,7 +42,7 @@
 }
 
 .date-font {
-  font-family: 'Roboto Black';
+  font-family: 'OpenSans Extra Bold';
   font-size: 64px;
   font-weight: 900;
   line-height: 75px;
@@ -106,7 +106,7 @@
 .header__name {
   font-size: 28px;
   line-height: 33px;
-  font-family: "Roboto Black", sans-serif;
+  font-family: "OpenSans Extra Bold", sans-serif;
 }
 
 .header__position {
@@ -210,7 +210,7 @@
 }
 
 .skills__item-title {
-  font-family: 'Roboto Bold';
+  font-family: 'OpenSans Bold';
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -231,7 +231,7 @@
 
 
 .projects__item-subtitle {
-  font-family: 'Roboto Bold Italic';
+  font-family: 'OpenSans Bold Italic';
   color: var(--secondary-color);
   font-size: 21px;
   font-weight: 700;
@@ -283,7 +283,7 @@
 
 .works__statement-title {
   margin-top: 38px;
-  font-family: 'Roboto Black';
+  font-family: 'OpenSans Extra Bold';
   font-size: 48px;
   font-weight: 900;
   line-height: 56px;
@@ -333,7 +333,7 @@
 }
 
 .quote__title {
-  font-family: 'Roboto Medium';
+  font-family: 'OpenSans Medium';
   font-size: 32px;
   font-weight: 500;
   line-height: 56px;
@@ -379,9 +379,11 @@
 }
 
 .education-experience__major {
-  font-family: 'Roboto Bold Italic';
+  font-family: 'OpenSans Bold Italic';
+
   font-size: 21px;
   font-weight: 700;
+  font-style: italic;
   margin-top: 14px;
   color: var(--secondary-color)
 }
@@ -416,7 +418,7 @@
 }
 
 .footer__feedback-title {
-  font-family: 'Roboto Black';
+  font-family: 'OpenSans Extra Bold';
   font-size: 48px;
   font-weight: 900;
   line-height: 52px;

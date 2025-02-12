@@ -8,7 +8,7 @@
   --primary-color: #FF5B5B;
   --secondary-color: #777777;
   --secondary-bg: #F8F8F8;
-  --font-family: Roboto Regular, sans-serif;
+  --font-family: OpenSans Regular, sans-serif;
   --dynamic-vh: min-content;
   --padding: 20px;
 }
@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: "Roboto Regular", sans-serif;
+  font-family: var(--font-family);
   font-size: 18px;
   line-height: 27px;
   font-weight: normal;
@@ -56,14 +56,14 @@ button {
 }
 
 h1 {
-  font-family: 'Roboto Black', sans-serif;
+  font-family: 'OpenSans Extra Bold', sans-serif;
   font-size: 110px;
   font-weight: 900;
   line-height: 100%;
 }
 
 h2 {
-  font-family: 'Roboto Black', sans-serif;
+  font-family: 'OpenSans Extra Bold', sans-serif;
   font-size: 32px;
   font-weight: 900;
   line-height: 27px;
@@ -71,7 +71,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat Bold';
+  font-family: 'Ubuntu Bold';
   font-size: 28px;
   line-height: 27px;
   letter-spacing: -5px;
