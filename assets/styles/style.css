@@ -57,7 +57,7 @@ button {
 
 h1 {
   font-family: 'OpenSans Extra Bold', sans-serif;
-  font-size: 110px;
+  font-size: 75px;
   font-weight: 900;
   line-height: 100%;
 }
@@ -87,7 +87,7 @@ h4 {
 
 @media screen and (max-width: 1280px) {
   h1 {
-    font-size: 90px;
+    font-size: 70px;
   }
 
   h2 {
@@ -97,7 +97,7 @@ h4 {
 
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   h2 {
